@@ -1,0 +1,37 @@
+@import '@/styles/globals.scss';
+
+.btnAddCard,
+.btnBuy {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  cursor: pointer;
+}
+
+.btnAddCard {
+  border: $background-first-color;
+  background-color: $background-first-color;
+  margin-bottom: 16px;
+  transition: all .4s ease;
+}
+
+.btnBuy {
+  border: 1px solid $border-btn-color;
+  background-color: $background-second-color;
+  transition: all .4s ease;
+}
+
+.btnAddCard:hover {
+    background-color: $background-hover-first-color;
+    transition: all .4s ease;
+}
+
+.btnBuy:hover {
+    background-color: $background-hover-cecond-color;
+    transition: all .4s ease;
+}
