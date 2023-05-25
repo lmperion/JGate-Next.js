@@ -5,17 +5,12 @@ import classes from '@/styles/Card.module.scss';
 import clsx from 'clsx';
 import Button from '../button/Button';
 import Image from 'next/image'
+import { Product } from '@/types/interface';
 
 import redHeadPhone from '@/img/imageHeadPhone.png';
 import blueHeadPhone from '@/img/blueHeadPhone.jpg';
 import blackHeadPhone from '@/img/blackHeadPhone.jpg';
 
-interface Product {
-  price: string;
-  name: string;
-  description: string;
-  id: number;
-}
 
 interface Props {
   product: Product;
